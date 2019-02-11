@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Resources.ExtentReporterNG"/>
+    <listener class-name="Resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Tasks(failed)">
+    <classes>
+      <class name="Baarei.TaskTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="reorderTasks"/>
+          <include name="createTask"/>
+          <include name="searchByTitle"/>
+          <include name="deleteTask"/>
+          <include name="searchByOwner"/>
+          <include name="assignTask"/>
+          <include name="addSection"/>
+          <include name="dueDate"/>
+          <include name="close"/>
+          <include name="commentTask"/>
+          <include name="deleteComment"/>
+          <include name="deleteSection"/>
+        </methods>
+      </class> <!-- Baarei.TaskTest -->
+    </classes>
+  </test> <!-- Tasks(failed) -->
+</suite> <!-- Failed suite [Suite] -->

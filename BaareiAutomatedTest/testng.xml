@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionRun">
+
+	<listeners>
+		<listener class-name="Resources.ExtentReporterNG"></listener>
+		<listener class-name="Resources.Listeners"></listener>
+	</listeners>
+	<test name="CreateEvent">
+		<classes>
+			<class name="Baarei.CreateEventTest" />
+		</classes>
+	</test>
+	<test name="SmartTasks">
+		<classes>
+			<class name="Baarei.SmartTaskTest" />
+		</classes>
+	</test>
+	<test name="Tasks">
+		<classes>
+			<class name="Baarei.TaskTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

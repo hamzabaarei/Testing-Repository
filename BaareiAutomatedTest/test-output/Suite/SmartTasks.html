@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  SmartTasks</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmartTasks</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 07 22:22:55 PKT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>449 seconds (449310 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Baarei.SmartTaskTest.createTask()'><b>createTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>304</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.emailTemplate()'><b>emailTemplate</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>7</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.expensesSmartTask()'><b>expensesSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.leadsSmartTask()'><b>leadsSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.orderSmartTask()'><b>orderSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>5</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.postSmartTask()'><b>postSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>3</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.reminderCollateralSmartTask()'><b>reminderCollateralSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.reminderEventSmartTask()'><b>reminderEventSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.reminderHotelsSmartTask()'><b>reminderHotelsSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.reminderPresentationSmartTask()'><b>reminderPresentationSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.requestContractSmartTask()'><b>requestContractSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>5</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.requestInformationSmartTask()'><b>requestInformationSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>5</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.requestSponsorshipSmartTAsk()'><b>requestSponsorshipSmartTAsk</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>6</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.sendFileSmartTask()'><b>sendFileSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>5</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.shipmentSmartTask()'><b>shipmentSmartTask</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>4</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyDate()'><b>verifyDate</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>2</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyEmailExpenses()'><b>verifyEmailExpenses</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyEmailLeads()'><b>verifyEmailLeads</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyEmailShipment()'><b>verifyEmailShipment</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyEmailTemplate()'><b>verifyEmailTemplate</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyOrder()'><b>verifyOrder</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyPost()'><b>verifyPost</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRemindCollateral()'><b>verifyRemindCollateral</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRemindHotel()'><b>verifyRemindHotel</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRemindMeeting()'><b>verifyRemindMeeting</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRemindPresentation()'><b>verifyRemindPresentation</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRequestCounterSigned()'><b>verifyRequestCounterSigned</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRequestInfo()'><b>verifyRequestInfo</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifyRequestSponsorshipContract()'><b>verifyRequestSponsorshipContract</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+<tr>
+<td title='Baarei.SmartTaskTest.verifySendFile()'><b>verifySendFile</b><br>Test class: Baarei.SmartTaskTest</td>
+<td></td>
+<td>0</td>
+<td>Baarei.SmartTaskTest@cb644e</td></tr>
+</table><p>
+</body>
+</html>
